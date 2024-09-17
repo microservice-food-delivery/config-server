@@ -1,0 +1,14 @@
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    service-url:
+#     defaultZone: http://discovery-service:9001/eureka
+      defaultZone: http://localhost:9001/eureka
+
+spring:
+  cloud:
+    config:
+      override-system-properties: false
+
+#จะกำหนดค่า default ให้กับทุก service

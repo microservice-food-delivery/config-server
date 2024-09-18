@@ -7,7 +7,7 @@ spring:
       service-id: customer-service
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://mysql:3306/orders
+    url: jdbc:mysql://mysql:3306/customers
 #    url: jdbc:mysql://localhost:3306/customers
     username: root
     password: 1234
